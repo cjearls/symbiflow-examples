@@ -29,6 +29,12 @@ counter example, depending on your hardware, run:
 
 
 .. code-block:: bash
+   :name: example-counter-nexys4-group
+
+   TARGET="nexys4" make -C counter_test
+
+
+.. code-block:: bash
    :name: example-counter-zybo-group
 
    TARGET="zybo" make -C counter_test

@@ -27,6 +27,11 @@ else ifeq ($(TARGET),nexys_video)
   XDC:=${current_dir}/nexys_video.xdc
   DEVICE:= xc7a200t_test
   BOARD_BUILDDIR := ${BUILDDIR}/nexys_video
+else ifeq ($(TARGET),nexys4)
+  PARTNAME:= xc7a100tcsg324-1
+  XDC:=${current_dir}/nexys4.xdc
+  DEVICE:= xc7a100t_test
+  BOARD_BUILDDIR := ${BUILDDIR}/nexys4
 else
   PARTNAME:= xc7a35tcpg236-1
   XDC:=${current_dir}/basys3.xdc
