@@ -20,6 +20,10 @@ else ifeq ($(TARGET),nexys4ddr)
   XDC:=${current_dir}/nexys4ddr.xdc
   DEVICE:= xc7a100t_test
   BOARD_BUILDDIR := ${BUILDDIR}/nexys4ddr
+else ifeq ($(TARGET),mercury2)
+  PARTNAME:= xc7a35tftg256-1
+  XDC:=${current_dir}/mercury2.xdc
+  BOARD_BUILDDIR := ${BUILDDIR}/mercury2
 else ifeq ($(TARGET),zybo)
   PARTNAME:= xc7z010clg400-1
   XDC:=${current_dir}/zybo.xdc

@@ -22,6 +22,11 @@ counter example, depending on your hardware, run:
    TARGET="nexys4ddr" make -C counter_test
 
 .. code-block:: bash
+   :name: example-counter-mercury2-group
+
+   TARGET="mercury2" make -C counter_test
+
+.. code-block:: bash
    :name: example-counter-basys3-group
 
    TARGET="basys3" make -C counter_test

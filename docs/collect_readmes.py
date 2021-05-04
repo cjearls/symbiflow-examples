@@ -6,6 +6,7 @@ full_name_lut = {
     'a35t': 'Arty 35T',
     'a100t': 'Arty 100T',
     'nexys4ddr': 'Nexys 4 DDR',
+    'mercury2': 'Mercury 2',
     'basys3': 'Basys 3',
     'eos_s3': 'EOS S3',
     'zybo': 'Zybo Z7',
